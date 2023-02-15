@@ -8,25 +8,25 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
+	<form action="my_form" method="post">
 		<div>
 			<label for="name">Name*</label>
-		    <input type="text" id="name" class="name" placeholder="Enter your name" required>
+		    <input type="text" id="name"  placeholder="Enter your name" required>
 		</div>
 		<div>
 			<label for="email">Email*</label>
-			<input type="email" id="email" class="email" placeholder="Enter your email" required> 
+			<input type="email" id="email"  placeholder="Enter your email" required> 
 		</div>
 		<div>
 			<label for="gender">Gender*</label>
-			<input type="radio" id="male" class="class" name="gender" required>
+			<input type="radio" id="male"  name="gender" required>
 			<label for="male">male</label>
-			<input type="radio" id="female" class="female" name="gender" required>
+			<input type="radio" id="female"  name="gender" required>
 			<label for="female">female</label>
 		</div>
 		<div>
 			<label for="cars">Car Brands</label>
-			<select id="car brands" name="cars">
+			<select id="cars" name="cars">
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
@@ -37,15 +37,15 @@
 			<input type="number" id="carage" class="carage" required>
 		</div>
 		<div>
-			<label for="dop">Date of Purchase*</label>
-			<input type="date" id="purchase date" class="purchase date" required>
+			<label for="dop">Date Of Purchase(dop)*</label>
+			<input type="date" id="dop" required>
 		</div>
 		<div>
 			<label for="password">Password*</label>
 			<input type="password" class="password" id="password" required>
 		</div>
 		<div>
-			<input type="submit" value="submit button">
+			<button type="submit" >submit button</button>
 		</div>
 	</form>
     <script type="text/javascript" src="./script.js">
